@@ -66,7 +66,7 @@ describe('Testes API - Restful Booker', () => {
             Cookie: `token=${token}`
           }
         }).then((deleteRes) => {
-          expect(deleteRes.status).to.eq(201) // bug da API 👀
+          expect(deleteRes.status).to.eq(201)
         })*/
 
       })
